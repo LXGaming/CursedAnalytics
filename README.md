@@ -1,19 +1,17 @@
-# CursedAnalytics.NET
+# CursedAnalytics
 
-[![License](https://img.shields.io/github/license/LXGaming/CursedAnalytics.NET?label=License&cacheSeconds=86400)](https://github.com/LXGaming/CursedAnalytics.NET/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/LXGaming/CursedAnalytics?label=License&cacheSeconds=86400)](https://github.com/LXGaming/CursedAnalytics/blob/main/LICENSE)
 [![Docker Hub](https://img.shields.io/docker/v/lxgaming/cursedanalytics/latest?label=Docker%20Hub)](https://hub.docker.com/r/lxgaming/cursedanalytics)
 
 **Cursed Analytics** is a cursed way of obtaining project analytic data from [CurseForge](https://www.curseforge.com/).
 
-For [Reward Store](https://authors.curseforge.com/store) analytics check out [cursed-analytics](https://github.com/LXGaming/cursed-analytics)
-
 ## Prerequisites
-- [Grafana](https://grafana.com/)
 - [MariaDB](https://mariadb.org/) or [MySQL](https://www.mysql.com/)
+- [CurseForge API Key](https://console.curseforge.com/)
 
 ## Usage
 ### Docker Compose
-Download and use [config.json](https://raw.githubusercontent.com/LXGaming/CursedAnalytics.NET/main/LXGaming.CursedAnalytics/config.json)
+Download and use [config.json](https://raw.githubusercontent.com/LXGaming/CursedAnalytics/main/LXGaming.CursedAnalytics/config.json)
 ```yaml
 services:
   cursedanalytics:
@@ -26,4 +24,4 @@ services:
 ```
 
 ## License
-CursedAnalytics.NET is licensed under the [Apache 2.0](https://github.com/LXGaming/CursedAnalytics.NET/blob/main/LICENSE) license.
+CursedAnalytics is licensed under the [Apache 2.0](https://github.com/LXGaming/CursedAnalytics/blob/main/LICENSE) license.
